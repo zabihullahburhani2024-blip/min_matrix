@@ -1,14 +1,27 @@
 {
   "name": "Mini Matrix — پایش بازار طلا",
   "short_name": "Mini Matrix",
-  "description": "Gold market monitor powered by TradingView",
-  "start_url": "./Mini_Matrix_live.html",
+  "description": "پایش لحظه‌ای قیمت طلا و نقره",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "background_color": "#0a0a0c",
   "theme_color": "#d4af37",
-  "orientation": "portrait",
+  "lang": "fa",
+  "dir": "rtl",
   "icons": [
-    { "src": "matrix_logo.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "matrix_logo.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "matrix_logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "matrix_logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
